@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server":"cd server && yarn develop && cd ..",
+    "dev:client":"cd client && yarn dev && cd ..",
+    "build:server":"cd server && yarn build && cd ..",
+    "build:client":"cd client && yarn build && cd ..",
+    "start:server":"cd server && yarn start && cd ..",
+    "start:client":"cd client && yarn start && cd ..",
   },
   "keywords": [],
   "author": "",
